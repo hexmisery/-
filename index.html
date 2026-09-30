@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="hexmisery: Telegram-боты, Mini Apps, сайты и автоматизация. Посмотрите Слёзомер и обсудите свой проект в Telegram.">
+  <meta name="theme-color" content="#090b10">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>@hexmisery · Боты, сайты и Mini Apps</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232f65ff'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='Arial' font-size='23' fill='white'%3Eh%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script><script src="wave.js" defer></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><div class="ambient-light light-blue"></div><div class="ambient-light light-violet"></div><div class="ambient-light light-teal"></div></div>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="header">
+    <a class="brand wave-brand ocean-brand" href="#home" aria-label="На главную"><svg viewBox="0 0 100 92" aria-hidden="true" focusable="false"><g class="ocean-swell"><path fill="#dff8ff" d="M3 49C8 24 32 5 49 7c11 1 16 10 12 16-4 5-9-4-15-1C19 34 41 62 94 74l3 12H33C8 85-3 66 3 49Z"/><path fill="#00bcef" d="M6 48C12 30 30 16 44 19 23 36 37 59 96 78v9H34C10 87-3 66 6 48Z"/><path fill="#009fdf" d="M24 32C13 40 16 57 28 67c12 10 38 17 67 19H32C9 85-1 64 6 49c4-9 9-13 18-17Z"/><path fill="#a7ecfc" d="M44 19c-18 19-4 43 52 56l2 10C47 80 14 50 26 30c5-7 10-10 18-11Z"/><path fill="#c9f5ff" d="M3 48c4-13 15-22 26-18 4 2 2 8-3 7-12-4-19 4-23 11Z"/><path class="ocean-foam" fill="#e8fbff" d="M5 64c-2-11 11-19 23-14 7 3 5 8-1 7-13-5-19 2-19 10 0 7 5 13 10 16C9 79 5 72 5 64Z"/><path fill="none" stroke="#00bcef" stroke-width="3" stroke-linecap="round" d="M32 46c9 14 27 24 50 30"/><path fill="none" stroke="#55d6f7" stroke-width="3" stroke-linecap="round" d="m89 78 3 1M49 69l2 1"/></g></svg></a>
+    <nav aria-label="Навигация"><a href="#project">Работы</a><a href="#contact">Контакт</a></nav>
+    <a class="header-contact" href="https://t.me/hexmisery" target="_blank" rel="noopener noreferrer">Написать в лс <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-atmosphere" aria-hidden="true"><div class="halo halo-one" data-depth="24"></div><div class="halo halo-two" data-depth="-32"></div><div class="halo halo-three" data-depth="15"></div><div class="hero-grid"></div></div>
+      <div class="hero-content wrap">
+        <h1 id="hero-title" aria-label="@hexmisery"><span class="wordmark" aria-hidden="true"><span class="letter">@</span><span class="letter">h</span><span class="letter">e</span><span class="letter">x</span><span class="letter">m</span><span class="letter">i</span><span class="letter">s</span><span class="letter">e</span><span class="letter">r</span><span class="letter">y</span></span></h1>
+        <h2>Боты, Mini Apps и сайты.</h2>
+
+
+        <div class="actions"><a class="button secondary-button" href="#price">Прайс</a><a class="button primary" href="#project">Смотреть работы</a><a class="button secondary-button" href="https://t.me/hexmisery" target="_blank" rel="noopener noreferrer">Написать в лс ↗</a></div>
+      </div>
+    </section>
+
+    <section class="project-section" id="project" aria-labelledby="project-title">
+      <div class="wrap">
+        <div class="section-heading projects-heading"><h2 id="project-title">Мои работы</h2><div class="project-controls" role="group" aria-label="Переключение проектов"><button type="button" id="project-prev" aria-label="Предыдущий проект" aria-controls="project-slides" disabled>←</button><span id="project-count" role="status" aria-live="polite" aria-atomic="true" aria-label="Проект 1 из 1">1 / 1</span><button type="button" id="project-next" aria-label="Следующий проект" aria-controls="project-slides" disabled>→</button></div></div>
+        <div id="project-slides">
+        <article class="project-slide" role="group" aria-roledescription="слайд" aria-label="Слёзомер, проект 1 из 1" data-project-name="Слёзомер">
+          <div class="showcase">
+            <div class="showcase-copy">
+              <h3>Слёзомер<span aria-hidden="true">.</span></h3>
+              <p>Игровой бот для телеграм-чатов. Можно поплакать вместе, поиграть в казино или в КНБ.</p>
+              <ul class="project-tags" aria-label="Форматы проекта"><li>Бот</li><li>Mini App</li><li>Инлайн</li></ul>
+              <a class="button primary" href="https://t.me/slezomer_bot" target="_blank" rel="noopener noreferrer">Открыть бота <span aria-hidden="true">↗</span></a>
+              <details class="project-details"><summary>Подробнее <span aria-hidden="true">+</span></summary>
+                <div class="project-details-body"><h4>Что внутри</h4><p>Совместный плач, профили и рейтинг участников. Инлайн-вызовы прямо из строки сообщения.</p><h4>Mini App</h4><p>Банк, игровые режимы и КНБ против случайных игроков.</p><p><code>/cry</code> поплакать · <code>/top</code> рейтинг · <code>/me</code> профиль · <code>/stats</code> статистика · <code>/ref</code> рефералы · <code>/app</code> Mini App.</p></div>
+              </details>
+            </div>
+            <figure class="showcase-visual"><div class="showcase-orbit" aria-hidden="true"></div><a class="project-screen" href="https://t.me/slezomer_bot" target="_blank" rel="noopener noreferrer" aria-label="Попробовать Слёзомер в Telegram"><img src="slezomer-chat.png" width="618" height="912" alt="Слёзомер в Telegram: команды и запуск игр" loading="lazy"></a></figure>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="price-section wrap" id="price" aria-labelledby="price-title">
+      <h2 id="price-title">Прайс</h2>
+      <dl class="price-list">
+        <div><dt>Telegram-бот</dt><dd>от <strong>$5</strong> баксов</dd></div>
+        <div><dt>Сайт</dt><dd>от <strong>$20</strong> баксов</dd></div>
+        <div><dt>Скрипт</dt><dd>от <strong>$10</strong> баксов</dd></div>
+      </dl>
+      <p>Точная цена зависит от задачи. Напиши, что нужно сделать.</p>
+      <a class="price-contact" href="https://t.me/hexmisery" target="_blank" rel="noopener noreferrer">Написать в лс ↗</a>
+    </section>
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><div class="contact-panel"><h2 id="contact-title">Нужен свой проект?</h2><p>Напиши, что хочешь сделать. Обсудим цену и сроки.</p><a class="contact-link" href="https://t.me/hexmisery" target="_blank" rel="noopener noreferrer">Написать в Telegram <span aria-hidden="true">↗</span></a><div class="contact-bottom"><button class="copy-button" type="button" id="copy-contact">Скопировать контакт</button></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p></div></section>
+  </main>
+  <footer class="footer wrap"><a href="#home">Наверх ↑</a></footer>
+</body>
+</html>
